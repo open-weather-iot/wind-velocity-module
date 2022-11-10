@@ -10,7 +10,7 @@ Nesta caso foi escolhido o microcontrolador Raspberry Pi Pico e o lenguagem Micr
 ## Diagrama de blocos
 O seguinte diagrama apresenta as conexões dos subsistemas eletrónicos do modulo de velocidade do vento.
 
-<img src="img/template-picker.png">
+<img src="img/diagrama_de_blocos_MVV.png">
 
 - Dê um nome no formato `{sensor}-module`. Exemplo: `temperature-module`
 <img src="img/repo-name.png">

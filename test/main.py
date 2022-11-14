@@ -20,7 +20,7 @@ def main():
 
     sensors = {
         # nome do sensor: nome da classe()
-        "example_sensor": Example(SPI(1)) # passe como parâmetro a instância do barramento que está conectado à determinada porta
+        "example_sensor": Example(SPI(port=1)) # passe como parâmetro a instância do barramento que está conectado à determinada porta
     }
 
     # inicialização de cada sensor (se o método setup existe)

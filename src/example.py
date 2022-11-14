@@ -1,7 +1,7 @@
 class Example:
     # deve receber os parâmetros nomeados necessários e o barramento utilizado (seja SPI, Serial ou I2C)
-    def __init__(self):
-        pass
+    def __init__(self, spi_bus):
+        self.spi_bus = spi_bus
 
     # método **OPCIONAL** da classe que realiza a inicialização do sensor
     def setup(self):

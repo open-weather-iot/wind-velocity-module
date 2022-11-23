@@ -12,7 +12,7 @@ TO_KMH = 3.6
 degrees = 0
 slp = 0.35 # valor minimo de delay (referencial para uma leitura não muito rapida)
 dt = 0
-distHaste = 0.29 # distancia da haste em metros
+distHaste = 0.096 # distancia da haste em metros
 
 while True:
     temp = degrees
